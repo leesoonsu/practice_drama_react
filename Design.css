@@ -1,0 +1,155 @@
+.Title {
+  text-align: center;
+  background-color: antiquewhite;
+  border: 5px;
+  border-style: groove;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-top: 5px;
+}
+
+.addbtn {
+  text-align: right;
+  border: 3px solid;
+  margin-left: 10px;
+}
+
+.container {
+  /* font */
+  font-weight: bold;
+  text-align: center;
+  /* box grid */
+  display: grid;
+
+  width: 700px;
+  height: 700px;
+  background-color: white;
+  border: 5px;
+  border-style: solid;
+  margin-left: 110px;
+  margin-right: 200px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 10px;
+  padding-left: 60px;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 200px 200px;
+  float: auto;
+}
+
+.BoxScroll {
+  align-items: center;
+  white-space: nowrap;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: 10px;
+  border-style: solid;
+  border-color: black;
+
+  overflow-x: auto;
+  overflow-y: hidden;
+  background: gainsboro;
+  width: 1000px;
+  height: 800px;
+
+  /* 영화 박스 우측 정렬*/
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.wywimg:hover {
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+
+  width: 600px;
+  height: 580px;
+  border: 0px;
+  float: left;
+  position: relative;
+  right: 280px;
+  top: 55px;
+}
+
+.wywimg {
+  align-content: flex-start;
+  width: 630px;
+  height: 650px;
+  border: 0px;
+  float: left;
+  position: relative;
+  right: 295px;
+  top: 30px;
+}
+.thisyearimg:hover {
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+
+  width: 600px;
+  height: 580px;
+  border: 0px;
+  float: left;
+  position: relative;
+  right: 580px;
+  top: 55px;
+}
+
+.thisyearimg {
+  align-content: flex-start;
+  width: 630px;
+  height: 650px;
+  border: 0px;
+  float: left;
+  position: relative;
+  right: 600px;
+  top: 30px;
+}
+
+.rtimg:hover {
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+
+  width: 600px;
+  height: 580px;
+  border: 0px;
+  float: left;
+  position: relative;
+  left: 15px;
+  bottom: 145px;
+}
+
+.rtimg {
+  align-content: flex-start;
+  width: 630px;
+  height: 650px;
+  border: 0px;
+  float: left;
+  position: relative;
+  left: 5px;
+  bottom: 170px;
+}
+
+.meloimg:hover {
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+
+  width: 600px;
+  height: 580px;
+  border: 0px;
+  float: left;
+  position: relative;
+  left: 15px;
+  bottom: 145px;
+}
+
+.meloimg {
+  align-content: flex-start;
+  width: 630px;
+  height: 650px;
+  border: 0px;
+  float: left;
+  position: relative;
+  left: 5px;
+  bottom: 170px;
+}
